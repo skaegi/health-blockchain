@@ -40,6 +40,3 @@ form:
     schema:
       $ref: deploy.json
     parameters:
-      app-space: x
-      app-organization: x
-      app-region: x
