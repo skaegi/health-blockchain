@@ -30,12 +30,8 @@ services:
         env:
           REPO: repo
           CF_APP_NAME: 'fitchain'
-          SPACE_NAME: '{{form.pipeline.parameters.app-space}}'
-          ORG_NAME: '{{form.pipeline.parameters.app-organization}}'
-          REGION_ID: '{{form.pipeline.parameters.app-region}}'
+          SPACE_NAME: 'xx'
+          ORG_NAME: 'xx'
+          REGION_ID: 'xx'
         execute: true
 
-form:
-  pipeline:
-    schema:
-      $ref: deploy.json
