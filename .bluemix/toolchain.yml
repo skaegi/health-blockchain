@@ -37,5 +37,6 @@ services:
 
 form:
   pipeline:
+    parameters: {}
     schema:
       $ref: deploy.json
