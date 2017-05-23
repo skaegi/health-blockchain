@@ -5,7 +5,6 @@ template:
   required:
     - build
     - repo
-    - deploy
 
 toolchain:
   name: 'health-blockchain-{{timestamp}}'
